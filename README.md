@@ -1,5 +1,5 @@
 # test_jupyterbook
-This is test repo for hosting IOOS JupyterBook webiste. 
+This is test repo for hosting IOOS JupyterBook website. 
 
 The website can be checked [here](https://lohithmunakala.github.io/test_jupyterbook).
 
