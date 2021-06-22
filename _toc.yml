@@ -36,7 +36,7 @@
         - file: content/Code Gallery/data_publication/2016-11-16-CF-UGRID-SGRID-conventions.ipynb
         - file: content/Code Gallery/data_publication/2020-12-08-DataToDwC.ipynb
         - file: content/Code Gallery/data_publication/2018-02-27-pocean-timeSeries-demo.ipynb
-        - file: content/Code Gallery/data_publication/2017-11-01-Creating-Archives-Using-Bagit.ipynb
+        - file:  content/Code Gallery/data_publication/2017-11-01-Creating-Archives-Using-Bagit.ipynb
     
     - file: content/Code Gallery/R_Matlab_Notebooks/R_Matlab_Notebooks.md
       sections:
@@ -67,7 +67,7 @@
     - url: https://help.aodn.org.au/aodn-data-tools/user-code-library/
       title: Opening netCDF files - hints from AODN
     - url: http://unidata.github.io/notebook-gallery/
-      title: Unidata Ju[yter Notebook Gallery
+      title: Unidata Jupyter Notebook Gallery
     - url: http://iobis.org/tutorial/
       title: Extracting and Enriching OBIS data with R
     - url: https://github.com/USGS-R
