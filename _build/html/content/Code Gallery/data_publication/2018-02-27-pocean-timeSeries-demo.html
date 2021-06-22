@@ -42,13 +42,11 @@
     <script src="../../../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe,.cell"
-        const thebe_selector_input = "pre,.cell_input div.highlight"
-        const thebe_selector_output = ".output,.cell_output"
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
@@ -345,7 +343,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference external" href="http://unidata.github.io/notebook-gallery/">
-   Unidata Ju[yter Notebook Gallery
+   Unidata Jupyter Notebook Gallery
   </a>
  </li>
  <li class="toctree-l1">
@@ -422,6 +420,19 @@
 
             <!-- Source interaction buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        
+        <a class="issues-button"
+            href="https://github.com/lohithmunakala/test_jupyterbook/issues/new?title=Issue%20on%20page%20%2Fcontent/Code Gallery/data_publication/2018-02-27-pocean-timeSeries-demo.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
             <!-- Full screen (wrap in <a> to have style consistency -->
 
 <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
@@ -436,7 +447,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/content/Code Gallery/data_publication/2018-02-27-pocean-timeSeries-demo.ipynb"><button type="button"
+        <a class="binder-button" href="https://binder.pangeo.io/v2/gh/lohithmunakala/test_jupyterbook/master?urlpath=lab/tree/content/Code Gallery/data_publication/2018-02-27-pocean-timeSeries-demo.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../../_static/images/logo_binder.svg"
@@ -444,14 +455,11 @@
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/executablebooks/jupyter-book/blob/master/content/Code Gallery/data_publication/2018-02-27-pocean-timeSeries-demo.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href=" /github/lohithmunakala/test_jupyterbook/blob/master/content/Code Gallery/data_publication/2018-02-27-pocean-timeSeries-demo.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="../../../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
         
-        <button type="button" class="btn btn-secondary topbarbtn"
-            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
-                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
         
     </div>
 </div>
@@ -539,7 +547,7 @@
   <tbody>
     <tr>
       <th>95</th>
-      <td>2021-09-06 13:36:57.985934</td>
+      <td>2019-05-24 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -549,7 +557,7 @@
     </tr>
     <tr>
       <th>96</th>
-      <td>2021-09-07 13:36:57.985934</td>
+      <td>2019-05-25 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -559,7 +567,7 @@
     </tr>
     <tr>
       <th>97</th>
-      <td>2021-09-08 13:36:57.985934</td>
+      <td>2019-05-26 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -569,7 +577,7 @@
     </tr>
     <tr>
       <th>98</th>
-      <td>2021-09-09 13:36:57.985934</td>
+      <td>2019-05-27 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -579,7 +587,7 @@
     </tr>
     <tr>
       <th>99</th>
-      <td>2021-09-10 13:36:57.985934</td>
+      <td>2019-05-28 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -612,18 +620,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(array([18779., 18793., 18809., 18823., 18840., 18854., 18871., 18885.]),
- [Text(0, 0, &#39;&#39;),
-  Text(0, 0, &#39;&#39;),
-  Text(0, 0, &#39;&#39;),
-  Text(0, 0, &#39;&#39;),
-  Text(0, 0, &#39;&#39;),
-  Text(0, 0, &#39;&#39;),
-  Text(0, 0, &#39;&#39;),
-  Text(0, 0, &#39;&#39;)])
-</pre></div>
-</div>
-<img alt="../../../_images/2018-02-27-pocean-timeSeries-demo_3_1.png" src="../../../_images/2018-02-27-pocean-timeSeries-demo_3_1.png" />
+<img alt="../../../_images/2018-02-27-pocean-timeSeries-demo_3_0.png" src="../../../_images/2018-02-27-pocean-timeSeries-demo_3_0.png" />
 </div>
 </div>
 <p><code class="docutils literal notranslate"><span class="pre">pocean.dsg</span></code> is relatively simple to use. The user must provide a DataFrame, like the one above, and a dictionary of attributes that maps to the data and adhere to the DSG conventions desired.</p>
@@ -715,7 +712,7 @@ variables:
 
 // global attributes:
 		:Conventions = &quot;CF-1.6&quot; ;
-		:date_created = &quot;2021-06-10T08:06:00Z&quot; ;
+		:date_created = &quot;2019-02-25T20:27:00Z&quot; ;
 		:featureType = &quot;timeseries&quot; ;
 		:cdm_data_type = &quot;Timeseries&quot; ;
 		:title = &quot;Fake mooring&quot; ;
@@ -880,7 +877,7 @@ variables:
   <tbody>
     <tr>
       <th>0</th>
-      <td>2021-06-03 13:36:57.985934</td>
+      <td>2019-02-18 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -890,7 +887,7 @@ variables:
     </tr>
     <tr>
       <th>1</th>
-      <td>2021-06-04 13:36:57.985934</td>
+      <td>2019-02-19 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -900,7 +897,7 @@ variables:
     </tr>
     <tr>
       <th>2</th>
-      <td>2021-06-05 13:36:57.985934</td>
+      <td>2019-02-20 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -910,7 +907,7 @@ variables:
     </tr>
     <tr>
       <th>3</th>
-      <td>2021-06-06 13:36:57.985934</td>
+      <td>2019-02-21 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -920,7 +917,7 @@ variables:
     </tr>
     <tr>
       <th>4</th>
-      <td>2021-06-07 13:36:57.985934</td>
+      <td>2019-02-22 17:27:54.693087</td>
       <td>-48.6256</td>
       <td>-27.5717</td>
       <td>10</td>
@@ -939,7 +936,7 @@ variables:
     {
         requestKernel: true,
         binderOptions: {
-            repo: "executablebooks/jupyter-book",
+            repo: "binder-examples/jupyter-stacks-datascience",
             ref: "master",
         },
         codeMirrorConfig: {

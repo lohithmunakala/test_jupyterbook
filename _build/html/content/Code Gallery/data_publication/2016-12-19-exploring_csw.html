@@ -42,13 +42,11 @@
     <script src="../../../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe,.cell"
-        const thebe_selector_input = "pre,.cell_input div.highlight"
-        const thebe_selector_output = ".output,.cell_output"
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
@@ -345,7 +343,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference external" href="http://unidata.github.io/notebook-gallery/">
-   Unidata Ju[yter Notebook Gallery
+   Unidata Jupyter Notebook Gallery
   </a>
  </li>
  <li class="toctree-l1">
@@ -422,6 +420,19 @@
 
             <!-- Source interaction buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        
+        <a class="issues-button"
+            href="https://github.com/lohithmunakala/test_jupyterbook/issues/new?title=Issue%20on%20page%20%2Fcontent/Code Gallery/data_publication/2016-12-19-exploring_csw.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
             <!-- Full screen (wrap in <a> to have style consistency -->
 
 <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
@@ -436,7 +447,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/content/Code Gallery/data_publication/2016-12-19-exploring_csw.ipynb"><button type="button"
+        <a class="binder-button" href="https://binder.pangeo.io/v2/gh/lohithmunakala/test_jupyterbook/master?urlpath=lab/tree/content/Code Gallery/data_publication/2016-12-19-exploring_csw.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../../_static/images/logo_binder.svg"
@@ -444,14 +455,11 @@
         
         
         
-        <a class="colab-button" href="https://colab.research.google.com/github/executablebooks/jupyter-book/blob/master/content/Code Gallery/data_publication/2016-12-19-exploring_csw.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
+        <a class="colab-button" href=" /github/lohithmunakala/test_jupyterbook/blob/master/content/Code Gallery/data_publication/2016-12-19-exploring_csw.ipynb"><button type="button" class="btn btn-secondary topbarbtn"
                 title="Launch Colab" data-toggle="tooltip" data-placement="left"><img class="colab-button-logo"
                     src="../../../_static/images/logo_colab.png"
                     alt="Interact on Colab">Colab</button></a>
         
-        <button type="button" class="btn btn-secondary topbarbtn"
-            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
-                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
         
     </div>
 </div>
@@ -636,13 +644,34 @@ The filter used here constraints the search on a certain geographical region (bo
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Found 83 records.
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Found 70 records.
+
+[SATURN Estuary Station #07, Baker Bay, WA]
+sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46116
+
+[STONEWALL BANK - 20NM West of Newport, OR]
+sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46050
+
+[TILLAMOOK, OR - 85 NM WNW of Tillamook, OR]
+sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46089
+
+[UCSC California Current System ROMS Nowcast 10km]
+UCSC
+
+[UMPQUA OFFSHORE, OR (139)]
+sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46229
+
+[UNH Appledore Island CO2]
+UNH_WBD
+
+[urn:ioos:station:NOAA.NOS.CO-OPS:9435380 station, South Beach, OR]
+opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9435380
+
+[urn:ioos:station:NOAA.NOS.CO-OPS:9440581 station, Cape Disappointment, WA]
+opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9440581
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9440910 station, Toke Point, WA]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9440910
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9441102 station, Westport, WA]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9441102
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9442396 station, La Push, Quillayute River, WA]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9442396
@@ -654,34 +683,34 @@ sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46248
 sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46041
 
 [ce_312-20170419T2040-delayed]
-ce_312-20170419T2040-delayed
-
-[ce_312-20170419T2040-delayed]
 org.oceanobservatories:ce_312-20170419T2040-delayed_f070_8f49_1646
 
-[ce_319-20170410T2034]
-ce_319-20170410T2034
+[ce_312-20170419T2040-delayed]
+ce_312-20170419T2040-delayed
 
 [ce_319-20170410T2034]
 org.oceanobservatories:ce_319-20170410T2034_f070_8f49_1646
 
-[ce_319-20170410T2034-delayed]
-org.oceanobservatories:ce_319-20170410T2034-delayed_f070_8f49_1646
+[ce_319-20170410T2034]
+ce_319-20170410T2034
 
 [ce_319-20170410T2034-delayed]
 ce_319-20170410T2034-delayed
 
-[ce_320-20170410T1745]
-ce_320-20170410T1745
+[ce_319-20170410T2034-delayed]
+org.oceanobservatories:ce_319-20170410T2034-delayed_f070_8f49_1646
 
 [ce_320-20170410T1745]
 org.oceanobservatories:ce_320-20170410T1745_f070_8f49_1646
 
-[ce_320-20170410T1745-delayed]
-org.oceanobservatories:ce_320-20170410T1745-delayed_f070_8f49_1646
+[ce_320-20170410T1745]
+ce_320-20170410T1745
 
 [ce_320-20170410T1745-delayed]
 ce_320-20170410T1745-delayed
+
+[ce_320-20170410T1745-delayed]
+org.oceanobservatories:ce_320-20170410T1745-delayed_f070_8f49_1646
 
 [ce_382-20160410T2230]
 org.oceanobservatories:ce_382-20160410T2230_f070_8f49_1646
@@ -690,16 +719,16 @@ org.oceanobservatories:ce_382-20160410T2230_f070_8f49_1646
 ce_382-20160410T2230
 
 [ce_382-20170410T2230]
-ce_382-20170410T2230
-
-[ce_382-20170410T2230]
 org.oceanobservatories:ce_382-20170410T2230_f070_8f49_1646
 
-[ce_382-20170410T2230-delayed]
-org.oceanobservatories:ce_382-20170410T2230-delayed_f070_8f49_1646
+[ce_382-20170410T2230]
+ce_382-20170410T2230
 
 [ce_382-20170410T2230-delayed]
 ce_382-20170410T2230-delayed
+
+[ce_382-20170410T2230-delayed]
+org.oceanobservatories:ce_382-20170410T2230-delayed_f070_8f49_1646
 
 [ce_383-20170131T1942]
 org.oceanobservatories:ce_383-20170131T1942_f070_8f49_1646
@@ -708,19 +737,19 @@ org.oceanobservatories:ce_383-20170131T1942_f070_8f49_1646
 ce_383-20170131T1942
 
 [ce_383-20170131T1942-delayed]
-org.oceanobservatories:ce_383-20170131T1942-delayed_f070_8f49_1646
-
-[ce_384-20170420T0137]
-org.oceanobservatories:ce_384-20170420T0137_f070_8f49_1646
+ce_383-20170131T1942-delayed
 
 [ce_384-20170420T0137]
 ce_384-20170420T0137
 
-[ce_384-20170420T0137-delayed]
-org.oceanobservatories:ce_384-20170420T0137-delayed_f070_8f49_1646
+[ce_384-20170420T0137]
+org.oceanobservatories:ce_384-20170420T0137_f070_8f49_1646
 
 [ce_384-20170420T0137-delayed]
 ce_384-20170420T0137-delayed
+
+[ce_384-20170420T0137-delayed]
+org.oceanobservatories:ce_384-20170420T0137-delayed_f070_8f49_1646
 
 [Cha&#39;Ba La Push]
 sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46119
@@ -755,33 +784,6 @@ sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46096
 [Destruction Island, WA]
 sdf.ndbc.noaa.gov-urn_ioos_station_wmo_desw1
 
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoy located near LAKESIDE, OR from 2017/03/31 to 2018/04/20.]
-edu.ucsd.cdip:CDIP_231p1_20170331-20180420_historic
-
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoy located near REEDSPORT, OR from 2017/03/31 to 2018/04/20.]
-edu.ucsd.cdip:CDIP_232p1_20170331-20180420_historic
-
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoys located near ASTORIA CANYON, OR from 2011/04/09 to 2020/08/22.]
-edu.ucsd.cdip:CDIP_179p1_20110409-20200822_historic
-
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoys located near CAPE MENDOCINO, CA from 1999/03/21 to 2020/10/08.]
-edu.ucsd.cdip:CDIP_094p1_19990321-20201008_historic
-
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoys located near GRAYS HARBOR, WA from 1993/08/27 to 2019/12/14.]
-edu.ucsd.cdip:CDIP_036p1_19930827-20191214_historic
-
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoys located near HARVEST, CA from 1991/10/22 to 2019/06/17.]
-edu.ucsd.cdip:CDIP_071p1_19911022-20190617_historic
-
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoys located near POINT REYES, CA from 1996/12/06 to 2019/10/25.]
-edu.ucsd.cdip:CDIP_029p1_19961206-20191025_historic
-
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoys located near SAN NICOLAS ISLAND, CA from 1991/09/10 to 2020/12/02.]
-edu.ucsd.cdip:CDIP_067p1_19910910-20201202_historic
-
-[Directional wave and sea surface temperature measurements collected in situ by Datawell Waverider buoys located near UMPQUA OFFSHORE, OR from 2006/07/12 to 2020/10/08.]
-edu.ucsd.cdip:CDIP_139p1_20060712-20201008_historic
-
 [Global SST &amp; Sea Ice Analysis, L4 OSTIA, 0.05 deg daily (METOFFICE-GLO-SST-L4-NRT-OBS-SST-V2)]
 AOOS_OSTIA
 
@@ -794,8 +796,8 @@ CDIP_46211
 [Hourly CDIP 46229 Data]
 CDIP_46229
 
-[Hourly CDIP 46243 Data]
-CDIP_46243
+[Hourly CDIP 46248 Data]
+CDIP_46248
 
 [Hourly NDBC 46029 data]
 NDBC_46029
@@ -824,8 +826,8 @@ NOS_9435380_Met
 [Hourly NOS Toke Pt Met Data]
 NOS_9440910_Met
 
-[Lakeside, OR (231)]
-sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46260
+[NDBC Standard Meteorological Buoy Data, 1970-present]
+cwwcNDBCMet
 
 [Newport, OR]
 sdf.ndbc.noaa.gov-urn_ioos_station_wmo_nwpo3
@@ -851,41 +853,8 @@ data.nanoos.org-urn_ioos_station_nanoos_osu_nh10
 [Reedsport, OR (232)]
 sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46261
 
-[ROMS Real Time Nowcasting]
-roms_ncst
-
 [SATURN Estuary Station #03]
 sdf.ndbc.noaa.gov-urn_ioos_station_wmo_seto3
-
-[SATURN Estuary Station #07, Baker Bay, WA]
-sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46116
-
-[STONEWALL BANK - 20NM West of Newport, OR]
-sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46050
-
-[TILLAMOOK, OR - 85 NM WNW of Tillamook, OR]
-sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46089
-
-[UCSC California Current System ROMS Nowcast 10km]
-UCSC
-
-[UMPQUA OFFSHORE, OR (139)]
-sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46229
-
-[UNH Appledore Island CO2]
-UNH_WBD
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9432780 station, Charleston, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9432780
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9435380 station, South Beach, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9435380
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9437540 station, Garibaldi, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9437540
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9439040 station, Astoria, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9439040
 </pre></div>
 </div>
 </div>
@@ -923,31 +892,19 @@ We can those be excluded  from the search with a <code class="docutils literal n
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Found 69 records.
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Found 65 records.
 
 [UNH Appledore Island CO2]
 UNH_WBD
 
-[urn:ioos:station:NOAA.NOS.CO-OPS:9432780 station, Charleston, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9432780
-
 [urn:ioos:station:NOAA.NOS.CO-OPS:9435380 station, South Beach, OR]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9435380
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9437540 station, Garibaldi, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9437540
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9439040 station, Astoria, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9439040
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9440581 station, Cape Disappointment, WA]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9440581
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9440910 station, Toke Point, WA]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9440910
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9441102 station, Westport, WA]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9441102
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9442396 station, La Push, Quillayute River, WA]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9442396
@@ -959,40 +916,40 @@ sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46248
 sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46041
 
 [ce_312-20170419T2040-delayed]
-ce_312-20170419T2040-delayed
-
-[ce_312-20170419T2040-delayed]
 org.oceanobservatories:ce_312-20170419T2040-delayed_f070_8f49_1646
 
-[ce_319-20170410T2034]
-ce_319-20170410T2034
+[ce_312-20170419T2040-delayed]
+ce_312-20170419T2040-delayed
 
 [ce_319-20170410T2034]
 org.oceanobservatories:ce_319-20170410T2034_f070_8f49_1646
 
-[ce_319-20170410T2034-delayed]
-org.oceanobservatories:ce_319-20170410T2034-delayed_f070_8f49_1646
+[ce_319-20170410T2034]
+ce_319-20170410T2034
 
 [ce_319-20170410T2034-delayed]
 ce_319-20170410T2034-delayed
 
-[ce_320-20170410T1745]
-ce_320-20170410T1745
+[ce_319-20170410T2034-delayed]
+org.oceanobservatories:ce_319-20170410T2034-delayed_f070_8f49_1646
 
 [ce_320-20170410T1745]
 org.oceanobservatories:ce_320-20170410T1745_f070_8f49_1646
 
-[ce_320-20170410T1745-delayed]
-org.oceanobservatories:ce_320-20170410T1745-delayed_f070_8f49_1646
+[ce_320-20170410T1745]
+ce_320-20170410T1745
 
 [ce_320-20170410T1745-delayed]
 ce_320-20170410T1745-delayed
 
-[ce_382-20160410T2230]
-ce_382-20160410T2230
+[ce_320-20170410T1745-delayed]
+org.oceanobservatories:ce_320-20170410T1745-delayed_f070_8f49_1646
 
 [ce_382-20160410T2230]
 org.oceanobservatories:ce_382-20160410T2230_f070_8f49_1646
+
+[ce_382-20160410T2230]
+ce_382-20160410T2230
 
 [ce_382-20170410T2230]
 ce_382-20170410T2230
@@ -1001,10 +958,10 @@ ce_382-20170410T2230
 org.oceanobservatories:ce_382-20170410T2230_f070_8f49_1646
 
 [ce_382-20170410T2230-delayed]
-org.oceanobservatories:ce_382-20170410T2230-delayed_f070_8f49_1646
+ce_382-20170410T2230-delayed
 
 [ce_382-20170410T2230-delayed]
-ce_382-20170410T2230-delayed
+org.oceanobservatories:ce_382-20170410T2230-delayed_f070_8f49_1646
 
 [ce_383-20170131T1942]
 org.oceanobservatories:ce_383-20170131T1942_f070_8f49_1646
@@ -1013,13 +970,13 @@ org.oceanobservatories:ce_383-20170131T1942_f070_8f49_1646
 ce_383-20170131T1942
 
 [ce_384-20170420T0137]
-ce_384-20170420T0137
-
-[ce_384-20170420T0137-delayed]
-ce_384-20170420T0137-delayed
+org.oceanobservatories:ce_384-20170420T0137_f070_8f49_1646
 
 [ce_384-20170420T0137-delayed]
 org.oceanobservatories:ce_384-20170420T0137-delayed_f070_8f49_1646
+
+[ce_384-20170420T0137-delayed]
+ce_384-20170420T0137-delayed
 
 [Cha&#39;Ba La Push]
 sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46119
@@ -1160,28 +1117,16 @@ sdf.ndbc.noaa.gov-urn_ioos_station_wmo_46089
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Found 8 records.
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9432780 station, Charleston, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9432780
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Found 4 records.
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9435380 station, South Beach, OR]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9435380
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9437540 station, Garibaldi, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9437540
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9439040 station, Astoria, OR]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9439040
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9440581 station, Cape Disappointment, WA]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9440581
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9440910 station, Toke Point, WA]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9440910
-
-[urn:ioos:station:NOAA.NOS.CO-OPS:9441102 station, Westport, WA]
-opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9441102
 
 [urn:ioos:station:NOAA.NOS.CO-OPS:9442396 station, La Push, Quillayute River, WA]
 opendap.co-ops.nos.noaa.gov-urn_ioos_station_NOAA.NOS.CO-OPS_9442396
@@ -1411,7 +1356,7 @@ It is easy to overwrite those with the same dates from the filter.</p>
     {
         requestKernel: true,
         binderOptions: {
-            repo: "executablebooks/jupyter-book",
+            repo: "binder-examples/jupyter-stacks-datascience",
             ref: "master",
         },
         codeMirrorConfig: {
