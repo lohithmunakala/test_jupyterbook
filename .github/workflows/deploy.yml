@@ -28,7 +28,7 @@ jobs:
 
     - name: Update _toc with respect to new build
       run: | 
-        jupyter-book toc migrate /_toc.yml -o /_toc.yml
+        jupyter-book toc migrate ./_toc.yml -o ./_toc.yml
 
     # Build the book
     - name: Build the book
