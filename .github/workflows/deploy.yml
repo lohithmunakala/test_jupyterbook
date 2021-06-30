@@ -33,8 +33,10 @@ jobs:
         jupyter-book build .
 
     # Deploy the book's HTML to gh-pages branch
-    - name: GitHub Pages action
+     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_build/html
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: ./_build/html
+        CLEAN: false
