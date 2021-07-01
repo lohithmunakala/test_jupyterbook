@@ -1,2 +1,2 @@
-jupyter-book>0.7
+jupyter-book
 ghp-import
