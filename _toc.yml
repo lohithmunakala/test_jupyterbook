@@ -23,6 +23,7 @@ parts:
     - file: content/Code Gallery/data_access_notebooks/2019-02-26-hurricane_gis_part01.ipynb
     - file: content/Code Gallery/data_access_notebooks/2019-03-08-grids-temperature.ipynb
     - file: content/Code Gallery/data_access_notebooks/2019-05-27-hurricane_gis_part02.ipynb
+    - file: /home/munakala/Documents/test-jupyterbook/test_jupyterbook/content/Code Gallery/data_access_notebooks/notebooks.ipynb
   - file: content/Code Gallery/data_analysis_and_visualization.md
     sections:
     - file: content/Code Gallery/data_analysis_and_visualization_notebooks/2016-11-16-CF-UGRID-SGRID-conventions.ipynb
