@@ -24,6 +24,7 @@ parts:
     - file: content/Code Gallery/data_access_notebooks/2019-03-08-grids-temperature.ipynb
     - file: content/Code Gallery/data_access_notebooks/2019-05-27-hurricane_gis_part02.ipynb
     - file: content/Code Gallery/data_access_notebooks/notebooks.ipynb
+
   - file: content/Code Gallery/data_analysis_and_visualization.md
     sections:
     - file: content/Code Gallery/data_analysis_and_visualization_notebooks/2016-11-16-CF-UGRID-SGRID-conventions.ipynb
@@ -33,6 +34,7 @@ parts:
     - file: content/Code Gallery/data_analysis_and_visualization_notebooks/2018-03-30-wave_height_assessment.ipynb
     - file: content/Code Gallery/data_analysis_and_visualization_notebooks/2018-12-04-grids.ipynb
     - file: content/Code Gallery/data_analysis_and_visualization_notebooks/2020-02-14-QARTOD_ioos_qc_Water-Level-Example.ipynb
+
   - file: content/Code Gallery/data_management.md
     sections:
     - file: content/Code Gallery/data_management_notebooks/2017-05-14-running_compliance_checker.ipynb
@@ -41,6 +43,7 @@ parts:
     - file: content/Code Gallery/data_management_notebooks/2018-02-27-pocean-timeSeries-demo.ipynb
     - file: content/Code Gallery/data_management_notebooks/2020-10-10-GTS.ipynb
     - file: content/Code Gallery/data_management_notebooks/2020-12-08-DataToDwC.ipynb
+
 - caption: Video Tutorials
   chapters:
   - file: content/Video_Demo_Markdown/ioos.md
@@ -53,6 +56,7 @@ parts:
     title: OOI Demonstration Videos
   - file: content/Video_Demo_Markdown/python_dem.md
     title: Python Demonstration Videos
+
 - caption: Other Resources
   chapters:
   - file: content/ioos_installation_conda.md
@@ -65,6 +69,7 @@ parts:
     title: Extracting and Enriching OBIS data with R
   - url: https://github.com/USGS-R
     title: USGS-R Examples
+    
 - caption: Contact Us
   chapters:
   - file: content/contact_us.md
