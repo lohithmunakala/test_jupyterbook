@@ -37,6 +37,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: test_hosting
+        BRANCH: test_hosting_2
         FOLDER: ./_build/html
         CLEAN: false
