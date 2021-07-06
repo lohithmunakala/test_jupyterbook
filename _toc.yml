@@ -28,3 +28,8 @@ parts:
   chapters:
   - file: content/contact_us.md
     title: Contact Us
+
+# - caption: Instagram
+#   chapters:
+#   - file: content/test.md
+#     title: Powered by <a href="https://ioos.us">IOOS</a> 
