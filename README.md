@@ -15,4 +15,6 @@ To build it locally,
 
 The website can be checked [here](https://lohithmunakala.github.io/test_jupyterbook) and is still under development. 
 
+Need to add new formats for toc as the old one is redundant at this point.
+
 
