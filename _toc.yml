@@ -4,15 +4,15 @@ title: The IOOS Data Demo Center
 parts:
 - caption: Code Gallery
   chapters:
-  - file: content/Code Gallery/data_access.md
+  - file: content/Code Gallery/data_access_notebooks/data_access.md
     sections:
     - glob: content/Code Gallery/data_access_notebooks/*
 
-  - file: content/Code Gallery/data_analysis_and_visualization.md
+  - file: content/Code Gallery/data_analysis_and_visualization_notebooks/data_analysis_and_visualization.md
     sections:
     - glob: content/Code Gallery/data_analysis_and_visualization_notebooks/*
 
-  - file: content/Code Gallery/data_management.md
+  - file: content/Code Gallery/data_management_notebooks/data_management.md
     sections:
     - glob: content/Code Gallery/data_management_notebooks/*
 
@@ -28,4 +28,3 @@ parts:
   chapters:
   - file: content/contact_us.md
     title: Contact Us
-
