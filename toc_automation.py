@@ -12,7 +12,8 @@ def toc_write(directory):
         #             c: 3
         #             d: 4
         #         """
-        yaml.dump({'test': {'hp': 34, 'sp': 8, 'level': 4}, "test": directory ,  'test': {'hp': 12, 'sp': 0, 'level': 2}}, parsed_yaml_file, default_flow_style = False)
+        yaml.dump([{'status': 4, 'language': 'Python', 'name': 'PyYAML', 'license': 'MIT'},
+{'status': 5, 'license': 'BSD', 'name': 'PySyck', 'language': 'Python'}], parsed_yaml_file, default_flow_style = False)
 
 
 
