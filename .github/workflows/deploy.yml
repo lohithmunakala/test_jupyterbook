@@ -32,17 +32,17 @@ jobs:
       run: |
         jupyter-book build .
 
-    #Deploy the book's HTML to gh-pages branch
-    # - name: Deploy
-    #   uses: JamesIves/github-pages-deploy-action@3.7.1
-    #   with:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     BRANCH: test_hosting_2
-    #     FOLDER: ./_build/html
-    #     CLEAN: false
-
-    - name: GitHub Pages action
-      uses: peaceiris/actions-gh-pages@v3.6.1
+    Deploy the book's HTML to gh-pages branch
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: _build/html
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: test_hosting_2
+        FOLDER: ./_build/html
+        CLEAN: false
+
+    # - name: GitHub Pages action
+    #   uses: peaceiris/actions-gh-pages@v3.6.1
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: _build/html
